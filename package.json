@@ -1,0 +1,14 @@
+{
+  "name": "responsive_navbar",
+  "version": "1.0.0",
+  "description": "This is a responsive navbar design by Tailwind CSS",
+  "main": "index.html",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/tailwind.css -o ./output/tailwind.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  }
+}
